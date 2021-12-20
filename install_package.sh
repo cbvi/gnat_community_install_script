@@ -63,5 +63,6 @@ fi
 case `uname` in
   Darwin) install_darwin;;
   Linux) install_linux;;
+  FreeBSD) install_linux;;
   *) echo "Platform not supported" >&2 ; exit 1 ;;
 esac
